@@ -20,7 +20,7 @@ module.exports = {
                                  // pois os arquivos que ficam nesta pasta já estão transpilados pelo babel
         use: {
           loader: 'babel-loader' // para utilizar este loader, ele deve ser instalado, 
-                                  // digite no terminal: yarn add babel-loader. Mais adiante teremos 
+                                  // digite no terminal: yarn add babel-loader -D. Mais adiante teremos 
                                   // loader de css, de imagens, entre outros
         }        
       }, {
